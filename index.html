@@ -18,14 +18,29 @@
     <main>
       <section id="bookings">
         <h1>Book Your Appointment</h1>
-        <form>
-          <!-- Your booking form code goes here -->
+        <form action="submit_booking.php" method="POST">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br>
+          <label for="service">Select Service:</label><br>
+          <select id="service" name="service" required>
+            <option value="Haircut">Haircut</option>
+            <option value="Coloring">Coloring</option>
+            <option value="Styling">Styling</option>
+          </select><br>
+          <label for="date">Preferred Date:</label><br>
+          <input type="date" id="date" name="date" required><br>
+          <input type="submit" value="Submit">
         </form>
       </section>
       <section id="gallery">
         <h1>Previous Jobs</h1>
         <div class="gallery">
-          <!-- Your gallery images code goes here -->
+          <img src="image1.jpg" alt="Job 1">
+          <img src="image2.jpg" alt="Job 2">
+          <img src="image3.jpg" alt="Job 3">
+          <!-- Add more images as needed -->
         </div>
       </section>
     </main>
