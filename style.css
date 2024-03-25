@@ -9,6 +9,21 @@ body, h1, h2, h3, p, ul, li, form, input, select {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
+    background-color: #f4f4f4;
+    background-image: url('img/wall.jpg'); 
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9; /* Adjust opacity as needed */
+  }
+
+  .background-overlay {
+    background-color: rgba(255, 255, 255, 0.5); /* Background color with opacity */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure the overlay is behind other content */
   }
   
   .container {
