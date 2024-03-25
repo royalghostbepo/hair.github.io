@@ -18,7 +18,7 @@ body, h1, h2, h3, p, ul, li, form, input, select {
   }
   
   header {
-    background: #333;
+    background: #bd6d10;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -75,7 +75,7 @@ body, h1, h2, h3, p, ul, li, form, input, select {
   
   input[type="submit"] {
     width: auto; /* Allow button to adjust its width based on content */
-    background: #333;
+    background: #8f7b06;
     color: #fff;
     cursor: pointer;
     border: none;
